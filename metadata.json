@@ -1,0 +1,6 @@
+{
+  "name": "Personal AI Intelligence Agent",
+  "description": "Cloud-hosted personal AI intelligence agent monitoring VTU 2025 engineering scheme, AI, software development, and cybersecurity updates with Supabase, Gemini, and Discord.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

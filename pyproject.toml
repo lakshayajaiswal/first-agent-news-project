@@ -1,0 +1,58 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ai-intelligence-agent"
+version = "0.1.0"
+description = "Cloud-hosted personal AI intelligence agent monitoring VTU 2025 engineering scheme, AI, software development, and cybersecurity news with Supabase, Gemini, and Discord."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+    {name = "Personal Intelligence Team"}
+]
+keywords = ["vtu", "ai", "cybersecurity", "software-engineering", "intelligence-agent", "supabase", "gemini", "discord"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "pydantic>=2.0.0",
+    "google-genai>=2.4.0",
+    "supabase>=2.0.0",
+    "requests>=2.31.0",
+    "urllib3>=2.0.0",
+    "beautifulsoup4>=4.12.0",
+    "pypdf>=4.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-cov>=4.1.0",
+    "black>=24.0.0",
+    "ruff>=0.3.0",
+    "mypy>=1.9.0",
+]
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = "-v --tb=short"
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.mypy]
+python_version = "3.10"
+strict = true
+ignore_missing_imports = true

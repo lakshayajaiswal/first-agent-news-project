@@ -1,0 +1,8 @@
+{
+  "title": "Google DeepMind Announces Gemini 2.5 Flash with Enhanced Reasoning and 1M Context Window",
+  "url": "https://blog.google/technology/ai/gemini-2-5-flash-announcement/?utm_source=rss&utm_campaign=ai_blog",
+  "category": "ai",
+  "source_name": "Google AI & Gemini Updates",
+  "published_at": "2026-08-25T08:30:00Z",
+  "content": "Google DeepMind today announced Gemini 2.5 Flash, bringing substantial latency reductions and state-of-the-art multimodal reasoning capabilities. It natively supports structured JSON outputs, audio reasoning, and function calling with zero-shot validation."
+}

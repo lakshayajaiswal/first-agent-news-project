@@ -1,0 +1,8 @@
+{
+  "title": "CVE-2026-3392: Critical Remote Code Execution in Widely Used SSH Authentication Library",
+  "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-3392?source=rss_feed",
+  "category": "cybersecurity",
+  "source_name": "NIST NVD",
+  "published_at": "2026-08-25T06:00:00Z",
+  "content": "A critical vulnerability (CVSS 9.8) has been identified allowing unauthenticated remote attackers to execute arbitrary code before session negotiation completes. Immediate patch application is required."
+}
